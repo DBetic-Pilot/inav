@@ -1422,19 +1422,19 @@ groups:
         max: 10000
       - name: nav_wp_safe_distance
         field: general.waypoint_safe_distance
-        max: 65000
+        max: 100000
       - name: nav_auto_speed
         field: general.max_auto_speed
         min: 10
-        max: 2000
+        max: 5000
       - name: nav_auto_climb_rate
         field: general.max_auto_climb_rate
         min: 10
-        max: 2000
+        max: 3000
       - name: nav_manual_speed
         field: general.max_manual_speed
         min: 10
-        max: 2000
+        max: 5000
       - name: nav_manual_climb_rate
         field: general.max_manual_climb_rate
         min: 10
